@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"
+  <title></title>
+  <link rel="stylesheet"
+  href="styles.css">
+
+</head>
+<body>
+  <h1 id="title">Customer Satisfaction Survey</h1>
+  <p id="description">The purpose of this survey is to gather insights and feedback from our customers. We would like to invite you to our Customer Satisfacton Survey!</p>
+
+<form id="survey-form">
+<fieldset>
+  <label id="name-label">Name  <input required id="name" type="text" placeholder="Name"></input>
+  </label>
+
+  <label id="email-label">Email <input required id="email" type="email" placeholder="email"></input>
+  </label>
+
+  <label id="number-label"> Number<input required id="number" type="number" placeholder="Number" min="0" max="100000000000"></label>
+  
+
+  <label for="Number">Age <input required id="number" type="number" min="0" max="110" placeholder="age" >
+  </label>
+
+</fieldset>
+
+<label id="recommend-label">1)   How likely are you to recommend our app on a scale of 1-5?
+
+  <select id="dropdown">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+  </select>
+  
+
+ <label id="satisfaction-label">2) How satisfied are you with the features of our app?</label>
+
+  <input type="radio" id="satisfaction1" name="satisfaction" value="1">
+  <input type="radio" id="satisfaction2" name="satisfaction" value="2">
+   <input type="radio" id="satisfaction3" name="satisfaction" value="3">
+  <input type="radio" id="satisfaction4" name="satisfaction" value="4">
+  <input type="radio" id="satisfaction5" name="satisfaction" value="5">
+
+<br>
+
+  <label for="satisfaction1"> 1- Very dissatisfied</label>
+  <label for="satisfaction2"> 2- dissatisfied</label>
+  <label for="satisfaction3"> 3- neutral </label>
+  <label for="satisfaction4"> 4 - satisfied</label>
+  <label for="satisfaction5"> 5 - very satisfied</label>
+  </label>
+
+<label>3) How satisfied are you with the quality of our app?</label>
+<input type="checkbox" id="Excellent" name="quality" value="Excellent"></input>
+<input type="checkbox" id="Good" name="quality" value="Good"></input>
+<input type="checkbox" id="Neutral" name="quality" value="Neutral"></input>
+<input type="checkbox" id="Unsatisfactory" name="quality" value="unsatisfactory"></input>
+<input type="checkbox" id="Poor" name="quality" value="Poor"></input>
+
+  <label>Let us know what we can do to make your experience better!</label>
+<textarea>
+</textarea>
+<br>
+<button id="submit">Submit</button>
+
+</form>
+
+</body> 
+

@@ -1,0 +1,23 @@
+body {
+    background-color: #c5d8e8;
+  }
+  
+  form {
+    background-color: #c5d8e8;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 1em;
+  
+  }
+  
+  input {
+    margin: 1em; 
+  }
+  
+  
+  
