@@ -1,0 +1,50 @@
+#page {
+    background-color: #dbd9d0;
+    }
+    
+    #title {
+      text-align: center;
+      padding-top: 15px;
+    }
+    #heading {
+      text-align: center;
+    }
+    
+    #img-div {
+      text-align: center;
+      display: block;
+    justify-content: center;
+    }
+    
+    #image {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      padding: 10px 10px 10px 10px;
+      margin: 0 auto;
+    }
+    
+    .info {
+      text-align: center;
+    }
+    
+    #tribute-info {
+      text-align: center;
+    }
+    
+    #tribute-link-text {
+      font-size: 15px;
+      text-align: center;
+    }
+    
+    #tribute-link {
+      color: #4d4c4f
+    }
+    
+    fieldset {
+      margin: 10px;
+      border-width: 5px;
+      border-color: black;
+    }
+    
+    
