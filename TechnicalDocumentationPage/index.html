@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation Page</title>
+  </head>
+  <body>
+    <nav id="navbar">
+        <header>
+        <h2>Navigation</h2>
+        </header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction_to_Python">Introduction to Python</a></li>
+        <li><a class="nav-link" href="#Getting_started">Getting started</a></li>
+        <li><a class="nav-link" href="#Basic_Syntax">Basic Syntax</a></li>
+        <li><a class="nav-link" href="#Data_Structures">Data Structures</a></li>
+        <li><a class="nav-link" href="#Functions_and_Modules">Functions and Modules</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction_to_Python">
+        <header>Introduction to Python</header>
+        <p>Python is a high-level, interpreted programming language known for its simplicity and readability. </p>
+        <p>It is widely used for web development, data analysis, artificial intelligence, and more.</p>
+        <ul>
+          <li>Easy to read</li>
+          <li>Rich ecosystem of Libraries</li>
+          <li>Platform-independent</li>
+        </ul>
+        <code>
+          print("Hello World!")
+        </code>
+      </section>
+      
+      <section class="main-section" id="Getting_started">
+        <header>Getting started</header>
+        <p><i>Installation:</i><br>  
+ To install Python, visit the official Python website and download the latest version for your operating system. Follow the installation instructions provided.</p>
+        <p><i>Setting Up Development Environment</i><br>
+Choose an Integrated Development Environment (IDE) or text editor for Python development. Popular choices include PyCharm, VSCode, and Sublime Text. Configure your environment according to your preferences.</p>
+         <ul>
+           <li>Download Python from python.org</li>
+           <li>Install Python on your system</li>
+           <li>Choose a text editor or IDE</li>
+           <li>Conifgure the development environment</li>
+           <li>Verify Python Installation</li>
+         </ul>
+         <p> 
+         <code>
+           python --version
+          </code>
+         </p>
+       
+      </section>
+      
+      <section class="main-section" id="Basic_Syntax">
+        <header>Basic Syntax</header>
+        <p><i>Variables and Data Types</i><br>
+In Python, variables are dynamically typed, meaning you don't need to declare the data type explicitly. Common data types include integers, floats, strings, lists, tuples, dictionaries, and sets.
+</p>
+        <p><i>Operators</i><br></P>
+
+<P>Python supports various operators such as arithmetic operators (+, -, *, /), comparison operators (==, !=, <, >), logical operators (and, or, not), and more.
+
+</p>
+<P>
+        <code>
+          x = 5
+          y = 10
+          print (x + y)
+        </code>
+</P>
+      </section>
+      
+      <section class="main-section" id="Data_Structures">
+        <header>Data Structures</header>
+        <p><i>Lists</i><br>
+Lists are ordered collections of items, and they can contain elements of different data types.</P><br>
+
+<i>Tuples</i><br>
+Tuples are similar to lists but are immutable, meaning their elements cannot be changed after creation.</p>
+        <p><i>Dictionaries</i><br>
+Dictionaries store key-value pairs and are useful for mapping relationships between items.<br>
+
+<i>Sets</i><br>
+Sets are unordered collections of unique elements, useful for mathematical operations like union, intersection, and difference.</p>
+        <code>
+          my_list = [1, 2, 3, 4, 5]
+          my_tuple = (1, 2, 3)
+          my_dict = {"a":1, "b":2}
+          my_set = {1, 2, 3, 4, 5}
+        </code>
+      </section>
+
+      <section class="main-section" id="Functions_and_Modules">
+        <header>Functions and Modules</header>
+        <p><i>Defining Functions</i><br>
+Functions in Python are defined using the def keyword and can take parameters and return values.</p>
+        <p><i>Importing Modules</i><br>
+Modules in Python are files containing Python code. You can import modules into your programs using the import statement.
+
+</p> 
+       <code>
+         def greet(name):
+           print("Hello," + name)   
+
+         import math
+           print(math.pi)
+        </code>
+      </section>
+
+  </body>
+</html>
